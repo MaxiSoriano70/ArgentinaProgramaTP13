@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="3" failures="3" name="Modelo.IncripcionesTest" time="0.005" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="java.vm.version" value="19.0.2+7-44"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-19\bin"/>
+    <property name="maven.multiModuleProjectDirectory" value="D:\Cursos\En curso\Argentina Programa\13. Clase 13\Ejemplo\9"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="AR"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="D:\Cursos\En curso\Argentina Programa\13. Clase 13\Ejemplo\9"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="java.runtime.version" value="19.0.2+7-44"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\MAXY70~1\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="D:\Cursos\En curso\Argentina Programa\13. Clase 13\Ejemplo\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf7931503029880187480.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-19\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Razer Chroma SDK\bin;C:\Program Files\Razer Chroma SDK\bin;C:\Program Files (x86)\Razer\ChromaBroadcast\bin;C:\Program Files\Razer\ChromaBroadcast\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\ProgramData\chocolatey\bin;C:\Program Files (x86)\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\Azure Data Studio\bin;C:\Program Files\Git\cmd;C:\Program Files\dotnet\;C:\Users\MAXY 70\AppData\Local\Microsoft\WindowsApps;C:\Users\MAXY 70\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\MAXY 70\AppData\Local\Programs\Azure Data Studio\bin;C:\Users\MAXY 70\AppData\Roaming\npm;C:\Users\MAXY 70\AppData\Local\GitHubDesktop\bin;C:\Users\MAXY 70\.dotnet\tools;C:\Windows\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps;C:\xampp\php;C:\ProgramData\ComposerSetup\bin;C:\Program Files\nodejs\;C:\Program Files\Java\jdk-19\bin;C:\Users\MAXY 70\AppData\Local\Programs\Python\Python311\Scripts\;C:\Users\MAXY 70\AppData\Local\Programs\Python\Python311\;C:\Users\MAXY 70\anaconda3;C:\Users\MAXY 70\anaconda3\Library\mingw-w64\bin;C:\Users\MAXY 70\anaconda3\Library\usr\bin;C:\Users\MAXY 70\anaconda3\Library\bin;C:\Users\MAXY 70\anaconda3\Scripts;C:\Users\MAXY 70\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\MAXY 70\AppData\Local\Programs\Python\Python310\;C:\Users\MAXY 70\AppData\Local\Microsoft\WindowsApps;C:\Users\MAXY 70\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\MAXY 70\AppData\Local\Programs\Azure Data Studio\bin;C:\Program Files\Azure Data Studio\bin;C:\Users\MAXY 70\AppData\Local\GitHubDesktop\bin;C:\Users\MAXY 70\.dotnet\tools;C:\Users\MAXY 70\AppData\Roaming\Composer\vendor\bin;C:\Users\MAXY 70\AppData\Roaming\npm;C:\flutter\bin;;."/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="63.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\MAXY 70"/>
+    <property name="user.timezone" value="America/Buenos_Aires"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="19"/>
+    <property name="user.name" value="MAXY 70"/>
+    <property name="java.class.path" value="C:\Users\MAXY 70\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_1.18.0.20210603-1206\jars\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="19"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B install"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-19"/>
+    <property name="user.language" value="es"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.version" value="19.0.2"/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="D:\Cursos\En curso\Argentina Programa\13. Clase 13\Ejemplo\9\EMBEDDED"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.version.date" value="2023-01-17"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="Modelo.IncripcionesTest" name="Modelo.IncripcionesTest.testFalseIsPosibleInscribirse" time="0.005">
+    <failure message="org/junit/Assert" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: org/junit/Assert
+	at Modelo.IncripcionesTest.testFalseIsPosibleInscribirse(IncripcionesTest.java:49)
+Caused by: java.lang.ClassNotFoundException: org.junit.Assert
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 15 more
+</failure>
+  </testcase>
+  <testcase classname="Modelo.IncripcionesTest" name="Modelo.IncripcionesTest.testTrueIsPosibleInscribirsePorMateriaCorrelativa" time="0">
+    <failure message="org/junit/Assert" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: org/junit/Assert
+	at Modelo.IncripcionesTest.testTrueIsPosibleInscribirsePorMateriaCorrelativa(IncripcionesTest.java:32)
+Caused by: java.lang.ClassNotFoundException: org.junit.Assert
+	... 15 more
+</failure>
+  </testcase>
+  <testcase classname="Modelo.IncripcionesTest" name="Modelo.IncripcionesTest.testFalseIsPosibleInscribirsePorMateriaCorrelativa" time="0">
+    <failure message="org/junit/Assert" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: org/junit/Assert
+	at Modelo.IncripcionesTest.testFalseIsPosibleInscribirsePorMateriaCorrelativa(IncripcionesTest.java:19)
+Caused by: java.lang.ClassNotFoundException: org.junit.Assert
+	... 15 more
+</failure>
+  </testcase>
+</testsuite>
